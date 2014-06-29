@@ -7,6 +7,7 @@
     </authors>
   </meta>
   <items>
+  ## rough
     <item id="1" file="account_wrap.cpp" function="account_get_locktext">
       <original> by {}</original>
       <translate></translate>
@@ -25,11 +26,11 @@
     </item>
     <item id="6" file="alias_command.cpp" function="handle_alias_command">
       <original>No such alias.  Use // to show the list.</original>
-      <translate></translate>
+      <translate>アカウントのユーザ名を見つけられませんでした。　//を入力すれば、アカウントリストが見せます。</translate>
     </item>
     <item id="5" file="alias_command.cpp" function="list_aliases">
       <original>Alias list:</original>
-      <translate></translate>
+      <translate>アカウントリスト</translate>
     </item>
     <item id="7" file="channel.cpp" function="channel_add_connection">
       <original>you are now tempOP for this channel</original>
@@ -45,43 +46,43 @@
     </item>
     <item id="262" file="command.cpp" function="_handle_addacct_command">
       <original>Trying to add account "{}" with password "{}"</original>
-      <translate></translate>
+      <translate>アカウント　"{}" とパスワード　"{}"　を作ってみています。</translate>
     </item>
     <item id="263" file="command.cpp" function="_handle_addacct_command">
       <original>Hash is: {}</original>
-      <translate></translate>
+      <translate>ハッシュとは: {}</translate>
     </item>
     <item id="264" file="command.cpp" function="_handle_addacct_command">
       <original>Failed to create account!</original>
-      <translate></translate>
+      <translate>アカウントが作れませんでした！</translate>
     </item>
     <item id="265" file="command.cpp" function="_handle_addacct_command">
       <original>Account {} created.</original>
-      <translate></translate>
+      <translate>アカウント　{} が作れました。</translate>
     </item>
     <item id="51" file="command.cpp" function="_handle_admin_command">
       <original>You must supply a username.</original>
-      <translate></translate>
+      <translate>ユーザ名を入力しなければなりません。</translate>
     </item>
     <item id="52" file="command.cpp" function="_handle_admin_command">
       <original>There's no account with username {}.</original>
-      <translate></translate>
+      <translate>ユーザ名　{} があるアカウントはありません。</translate>
     </item>
     <item id="53" file="command.cpp" function="_handle_admin_command">
       <original>{} is already a Server Admin</original>
-      <translate></translate>
+      <translate>{} はもうSever Adminです。</translate>
     </item>
     <item id="54" file="command.cpp" function="_handle_admin_command">
       <original>{} has been promoted to a Server Admin</original>
-      <translate></translate>
+      <translate>{} はServer Adminになりました。</translate>
     </item>
     <item id="55" file="command.cpp" function="_handle_admin_command">
       <original>{} has promoted you to a Server Admin</original>
-      <translate></translate>
+      <translate>{}　はあなたにServer Adminのステータスを送りました。</translate>
     </item>
     <item id="56" file="command.cpp" function="_handle_admin_command">
       <original>{} is not a Server Admin.</original>
-      <translate></translate>
+      <translate>{}　はServer Adminのステータスが手に入りません。</translate>
     </item>
     <item id="57" file="command.cpp" function="_handle_admin_command">
       <original>{} has been demoted from a Server Admin</original>
@@ -93,11 +94,11 @@
     </item>
     <item id="299" file="command.cpp" function="_handle_admins_command">
       <original>Currently logged on Administrators:</original>
-      <translate></translate>
+      <translateログインしているAdministratorsは：></translate>
     </item>
     <item id="416" file="command.cpp" function="_handle_alert_command">
       <original>Your game client doesn't support MessageBox.</original>
-      <translate></translate>
+      <translate>あなたのゲームクライエントはMessageBoxをサポートしません。</translate>
     </item>
     <item id="417" file="command.cpp" function="_handle_alert_command">
       <original>\n\n***************************\nBy {}</original>
@@ -105,7 +106,7 @@
     </item>
     <item id="418" file="command.cpp" function="_handle_alert_command">
       <original>Information from {}</original>
-      <translate></translate>
+      <translate>{} から情報</translate>
     </item>
     <item id="419" file="command.cpp" function="_handle_alert_command">
       <original> for {}</original>
@@ -113,19 +114,19 @@
     </item>
     <item id="158" file="command.cpp" function="_handle_announce_command">
       <original>Announcement from {}: {}</original>
-      <translate></translate>
+      <translate>{} から通告</translate>
     </item>
     <item id="159" file="command.cpp" function="_handle_announce_command">
       <original>Could not broadcast message.</original>
-      <translate></translate>
+      <translate>メッセージを放送できなかった。</translate>
     </item>
     <item id="66" file="command.cpp" function="_handle_aop_command">
       <original>This command can only be used inside a channel.</original>
-      <translate></translate>
+      <translate>このコマンドはChannelだけで使えます。</translate>
     </item>
     <item id="67" file="command.cpp" function="_handle_aop_command">
       <original>You must be at least a Channel Admin to use this command.</original>
-      <translate></translate>
+      <translate>このコマンドを使いたいならば、Channel Adminのステータスが必要です。</translate>
     </item>
     <item id="68" file="command.cpp" function="_handle_aop_command">
       <original>There's no account with username {}.</original>
@@ -133,15 +134,15 @@
     </item>
     <item id="69" file="command.cpp" function="_handle_aop_command">
       <original>{} is already a Channel Admin</original>
-      <translate></translate>
+      <translate>{} はもうChannel Adminです。</translate>
     </item>
     <item id="70" file="command.cpp" function="_handle_aop_command">
       <original>{} has been promoted to a Channel Admin</original>
-      <translate></translate>
+      <translate>{} はChannel Adminになりました。</translate>
     </item>
     <item id="71" file="command.cpp" function="_handle_aop_command">
       <original>{} has promoted you to a Channel Admin for channel "{}"</original>
-      <translate></translate>
+      <translate>{}　はChannel {}　であなたにChannel Adminのステータスを送りました。 </translate>
     </item>
     <item id="198" file="command.cpp" function="_handle_away_command">
       <original>You are now marked as being away.</original>
